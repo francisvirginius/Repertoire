@@ -20,12 +20,24 @@
 
 /* Begin PBXFileReference section */
 		DE7F59422CB142000045755D /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAF94512CBABAA6009A4889 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DEAF94522CBABAD2009A4889 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DE7F59442CB142000045755D /* HelloWorld */ = {
+		DE2AB1122CB95CE900C96140 /* src */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloWorld;
+			path = src;
+			sourceTree = "<group>";
+		};
+		DE2AB1132CB95D0000C96140 /* include */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = include;
+			sourceTree = "<group>";
+		};
+		DEAF94532CBABAEA009A4889 /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +56,11 @@
 		DE7F59392CB142000045755D = {
 			isa = PBXGroup;
 			children = (
-				DE7F59442CB142000045755D /* HelloWorld */,
+				DEAF94532CBABAEA009A4889 /* docs */,
+				DEAF94512CBABAA6009A4889 /* Makefile */,
+				DEAF94522CBABAD2009A4889 /* README.md */,
+				DE2AB1132CB95D0000C96140 /* include */,
+				DE2AB1122CB95CE900C96140 /* src */,
 				DE7F59432CB142000045755D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DE7F59442CB142000045755D /* HelloWorld */,
 			);
 			name = HelloWorld;
 			packageProductDependencies = (
